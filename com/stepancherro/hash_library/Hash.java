@@ -3,7 +3,7 @@ package com.stepancherro.hash_library;
 import java.security.MessageDigest;
 
 public class Hash {
-    // allowed "SHA-256", "SHA-1", "SHA-384", "SHA-512", "MD5", "MD2"};
+    // allowed "SHA-256", "SHA-1", "SHA-384", "SHA-512", "MD5", "MD2" 
 
     public static String hash(String type, String base) {
         try{
